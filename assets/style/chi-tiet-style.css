@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+#content{
+    margin: 20vh 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content #left-content{
+    width: 70%;
+}
+#content #right-content{
+    width: 25%;
+}
+#story-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: baseline;
+    background-color: rgb(33, 32, 32);
+    box-shadow: 10px 10px 10px 10px black;
+    border: 0.5px solid grey;
+}
+
+#story-type{
+    width: 20%;
+    display: inline-block;
+}
+#story-info{
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    box-sizing: border-box;
+    
+}
+#story-type img{
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#story-info #story-genre li{
+    display: inline-block;
+    background-color: grey;
+    border-radius: 50px;
+    padding:8px;
+    margin-bottom: 15px;
+}
+
+#story-info #story-genre li:hover{
+    background-color: rgb(78, 77, 77);
+}
+#story-info #story-name{
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: white;
+    margin-top: 10px;
+}
+#story-info  p{
+    display: inline-block;
+    padding-right: 10px;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+#story-info #story-genre{
+    display: flex;
+    justify-content: space-between;
+}
+#doc-tiep-btn{
+    background-color: green;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#doc-tiep-btn:hover{
+    background-color:rgb(2, 67, 2) ;
+    transition: 0.2s;
+}
+#action-bar{
+    display: flex;
+}
+
+#action-bar li:hover{
+    cursor: pointer;
+}
+
+
+#action-bar li{
+
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#action-bar li:hover{
+    cursor: pointer;
+}
+
+
+#action-bar i{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+#action-bar p{
+    width: 100%;
+    text-align: center;
+}
+
+.danh-gia-icon{
+    font-size: 20px !important;
+    color: yellow !important;
+}
+.like-icon{
+    color:fuchsia !important;
+
+}
+#action-bar #like:hover .like-icon{
+    color:rgb(95, 3, 95) !important;
+    transition: 0.3s;
+}
+#danh-gia:hover .danh-gia-icon{
+    color: rgb(118, 118, 15) !important;
+    transition: 0.3s;
+}
+
+#muc-luc:hover .muc-luc-icon,
+#binh-luan:hover .binh-luan-icon,
+#chia-se:hover .chia-se-icon{
+    color: grey;
+    transition: 0.3s;
+}
+#status-bar{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    border: 0.5px solid grey;
+    padding: 15px 0;
+}
+#status-bar p{
+    font-weight: bold;
+}
+
+#ten-khac{
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border: 0.5px solid grey;
+}
+
+#tom-tat{
+    width: 100%;
+    padding-left: 20px;
+    border: 0.5px solid grey;
+}
+#story-container h5{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+#story-container p{
+    color:white;
+    padding-bottom: 10px;
+}
+
+#recommend {
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgb(33, 32, 32);
+    box-shadow: 10px 10px 10px 10px black;
+    border: 0.5px solid grey;
+}
+
+ h4{
+    background-color: rgb(55, 53, 53);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+#recommend ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#recommend li{
+    width: 100%;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#recommend li #story-info{
+    width: 92%;
+}
+
+#recommend #story-info a{
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+#recommend #story-info a:hover{
+    color:green;
+    transition: 0.3s;
+}
+#recommend #story-info p{
+    display: block;
+    font-size:12px;
+    font-weight: lighter;
+}
+
+#recommend img{
+    width: 8%;
+}
+
+#comment a{
+    color: green;
+}
+#comment{
+    width: 100%;
+    background-color: rgb(33, 32, 32);
+    box-shadow: 10px 10px 10px 10px black;
+    border: 0.5px solid grey;
+    margin-top: 100px;
+}
+
+#comment-section{
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+#comment h5{
+    margin: 20px 0;
+}
+#comment li {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#comment li img{
+    width: 5%;
+    height:fit-content;
+}
+#comment li #user{
+    color: white;
+    font-weight: bolder;
+}
+
+#comment li #user:hover{
+    color: green;
+    transition: 0.2s;
+}
+#comment li p {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+#comment li #time{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 0.8em;
+    color: grey;
+}
+
+#comment li #comment-content{
+    width: 95%;
+    margin-left: 20px;
+    background-color:rgb(55, 53, 53);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+
+#comment-content #time{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#comment-content i:hover{
+    color: fuchsia;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#right-content h2 {
+    width: 100%;
+    height: 70px;
+    background-color: green;
+    
+}
+
+#right-content #author-info{
+    border: 0.5px solid grey;
+    box-shadow: 10px 10px 10px 10px black;
+    border: 0.5px solid grey;
+}
+#right-content h2 p{
+    height: 100%;
+    display: inline-block;
+    line-height: 70px;
+    transform: translateY(-40%);
+    margin-left: 10px;
+}
+#right-content h2 img{
+    width: 70px;
+}
+
+#right-content #nhom-dich{
+    background-color: grey;
+    border-bottom: 5px solid red;
+    padding: 20px 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#right-content #nhom-dich a{
+    box-sizing: border-box;
+    padding: 20px;
+    padding-left: 0;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+#right-content #nhom-dich a:hover{
+    color: black;
+    transition: 0.3s;
+}
+#chu-thich {
+    margin-top: 100px;
+    box-shadow: 10px 10px 10px 10px black;
+    border: 0.5px solid grey;
+    background-color: rgb(33, 32, 32);
+}
+#chu-thich h4{
+    border: 0.5px solid grey;
+}
+
+#chu-thich p{
+    margin: 0 10px;
+}
+

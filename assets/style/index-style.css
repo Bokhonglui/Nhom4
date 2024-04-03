@@ -1,0 +1,300 @@
+#noi-bat{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2{
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  padding: 10px 10px;
+}
+#noi-bat ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#noi-bat li{
+  width: 20%;
+  position: relative;
+  box-shadow: 10px 10px 10px 10px rgb(0, 0, 0);
+}
+
+#noi-bat li:hover h4{
+  color: green;
+  transition: 0.2s;
+}
+
+#noi-bat h4{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 30px;
+  background-color: rgba(1, 1, 1, 0.799);
+  color: white;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+
+#tong-hop{
+  margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-bottom: 150px;
+}
+#moi-nhat{
+  width: 60%;
+  margin-top: 50px;
+  margin-left: 9%;
+}
+#moi-nhat h2 {
+  display: inline-block;
+  background-color:rgba(255, 255, 255, 0);
+}
+h2{
+  display: inline-block;
+  background-color: unset;
+
+}
+h2 b{
+  padding: 10px;
+  background-color: black;
+}
+h2 em{
+  padding-left: 4px;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+#moi-nhat ul{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#moi-nhat img{
+  height: 70%;
+  box-shadow: 10px 10px 10px 10px black;
+}
+
+#moi-nhat li{
+  width: 23%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#moi-nhat li a{
+  width: 100%;
+}
+
+#moi-nhat li h4{
+  font-size: 1.1em;
+}
+
+#moi-nhat .xem-them p,
+#moi-nhat .xem-them i{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#moi-nhat li:hover h4,
+#moi-nhat li:hover .xem-them{
+  color:green;
+  transition: 0.2s;
+}
+
+
+
+#moi-nhat h4{
+  font-size: 12px;
+}
+
+#content h4:hover{
+  color: green;
+}
+
+#comment-section{
+  width: 25%;
+  height: 700px;
+  display: inline-block;
+  padding-right: 20px;
+  margin-top: 120px;
+}
+
+#comment-section ul{
+  background-color: grey;
+  height: 600px;
+  box-shadow: 20px 20px 15px 10px black;
+  overflow-x: scroll;
+  border: 3px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#comment-section ul::-webkit-scrollbar{
+  display: none;
+}
+#comment-section li{
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  padding: 5px;
+  padding-right: 0;
+}
+#comment-section h2{
+  background-color: #fffefe00;
+  font-size: 14px;
+}
+
+#comment-section h5{
+  width: 100%;
+  height: 20px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  overflow-x:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#comment-section p{
+  font-size: 14px;
+  display: inline-block;
+}
+#comment-section .time{
+  float: right;
+  padding-top: 15px;
+  color: rgb(212, 209, 209);
+}
+#comment-section h5::-webkit-scrollbar{
+  display: none;
+}
+#comment-section img{
+  height: 30px;
+  width: 30px;
+  margin-top: 5px;
+}
+#comment-section .user-name{
+  font-style: normal;
+  color: rgb(76, 46, 12);
+  display: inline-block;
+  font-size: 12px;
+}
+#da-hoan-thanh-background{
+  background-image:linear-gradient(180deg, rgb(17, 16, 16),rgb(63, 60, 60));
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#da-hoan-thanh{
+  width: 80%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#da-hoan-thanh h5{
+  color:white;
+}
+#da-hoan-thanh ul{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#da-hoan-thanh li{
+  width: 30%;
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 10px 10px 10px 10px black;
+}
+#da-hoan-thanh li:hover #title{
+  color:green;
+  transition: 0.2s;
+}
+#da-hoan-thanh a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#da-hoan-thanh img{
+  height: 100%;
+  width: 28%;
+  
+}
+#da-hoan-thanh #story-info{
+  display: inline-block;
+  height: 100%;
+  width: 72%;
+  padding-left: 20px;
+  box-sizing: border-box;
+  color: grey;
+}
+#da-hoan-thanh li #title{
+  height: 18%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+#da-hoan-thanh #preview{
+  height: 82%;
+  font-size: 14px;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+}
+
+#da-hoan-thanh-background #xem-them-btn{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 1px solid white;
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  padding:20px;
+}
+
+#da-hoan-thanh-background #xem-them-btn:hover{
+  background-color: black;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

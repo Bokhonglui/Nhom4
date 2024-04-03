@@ -1,0 +1,213 @@
+#body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+#right-body {
+  width: 20%;
+  margin-right: 15%;
+}
+#left-body {
+  width: 80%;
+  margin-right: -300px;
+  margin-left: 15%;
+}
+#danh-sach {
+  width: 10%;
+  margin-top: 50px;
+  border: 1.5px solid grey;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+}
+#danh-sach a {
+  margin: auto;
+}
+#danh-sach a:hover {
+  color: green;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#tong-hop {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-bottom: 150px;
+}
+#moi-nhat {
+  width: 75%;
+  margin-top: 10px;
+}
+
+#moi-nhat ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#moi-nhat img {
+  height: 70%;
+  box-shadow: 10px 10px 10px 10px black;
+}
+
+#moi-nhat li {
+  width: 15%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#moi-nhat li:hover h4,
+#moi-nhat li:hover .xem-them {
+  color: green;
+  transition: 0.2s;
+}
+
+#moi-nhat h4 {
+  font-size: 12px;
+}
+
+#content h4:hover {
+  color: green;
+}
+#chu-cai {
+  background-color: rgba(128, 118, 118, 0.034);
+  width: 120%;
+  height: 20%;
+  border: 1.5px solid grey;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+#chu-cai h3 {
+  color: #f0f8ff;
+  width: 20%;
+  border-radius: 1.5px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+#chu-cai ul {
+  list-style-type: none;
+}
+#chu-cai li {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  line-height: 40px;
+  margin-left: 25px;
+}
+#chu-cai a {
+  border-radius: 100%;
+}
+#chu-cai a:hover {
+  background-color: aliceblue;
+  color: green;
+}
+#phan-loai {
+  background-color: rgba(128, 118, 118, 0.034);
+  width: 120%;
+  height: 150px;
+  border: 1.5px solid grey;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#phan-loai h3 {
+  color: aliceblue;
+  width: 30%;
+  border-radius: 1.5px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+#phan-loai ul {
+  list-style-type: none;
+}
+#phan-loai li {
+  color: aliceblue;
+  margin-left: 25px;
+}
+#phan-loai a {
+  width: 80px;
+  height: 20px;
+  background-color: green;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: right;
+  margin-right: 10px;
+}
+#tinh-trang {
+  background-color: rgba(128, 118, 118, 0.034);
+  width: 120%;
+  height: 13%;
+  border: 1.5px solid grey;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#tinh-trang h3 {
+  color: aliceblue;
+  width: 30%;
+  border-radius: 1.5px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+#tinh-trang ul {
+  list-style-type: none;
+}
+#tinh-trang li {
+  color: aliceblue;
+  margin-left: 25px;
+}
+#tinh-trang a {
+  width: 80px;
+  height: 20px;
+  background-color: green;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 30px;
+  float: right;
+  margin-right: 10px;
+}
+#the-loai-truyen {
+  background-color: rgba(128, 118, 118, 0.034);
+  width: 120%;
+  border: 1.5px solid grey;
+  border-radius: 5px;
+}
+#the-loai-truyen h3 {
+  color: aliceblue;
+  width: 30%;
+  border-radius: 1.5px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+#the-loai-truyen a {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+#the-loai-truyen a:hover {
+  color: green;
+}
